@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 4000px;
+}
+.container {
+    height: 100vh;
+}
+.menu {
+    width: 15%;
+    height: 100%;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+.avatarimg {
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 20px;
+    background-color: darkgray;
+    height: 120px;
+    font-size: 24px;
+    gap: 10px;
+    transition: background-color 4s ease-in;
+}
+
+.menu ul li:hover {
+    background-color: black;
+    color: white;
+}
+
+.section1 {
+    width: 85%;
+    background-color: black;
+    margin-left: 15%;
+}
+.header1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    font-size: 100px;
+    color: whitesmoke;
+    background-color: black;
+}
+.prof {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+    font-size: 30px;
+    color: whitesmoke;
+    background-color: black;
+}
+.mainimage {
+   display: flex;
+   justify-content: center
+}
+.section2 {
+    width: 85%;
+    background-color: black;
+    margin-left: 15%;
+    padding-right: 15%;
+}
+.header2 {
+    font-size: 45px;
+    color: #757575;
+    padding-bottom: 20px;
+}
+.aboutmetext {
+    font-size: 20px;
+    color: #757575;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.section3 {
+    width: 85%;
+    background-color: black;
+    margin-left: 15%;
+    padding-right: 15%;
+}
+.header3 {
+    font-size: 45px;
+    color: #757575;
+    padding-bottom: 20px;
+}
+
+.section3 ul li {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: gray;
+    font-size: 24px;
+    gap: 10px;
+    padding-bottom: 15px;
+}
+.section4 {
+    width: 85%;
+    background-color: lightgrey;
+    margin-left: 15%;
+    margin-top: 100px;
+    padding-right: 15%;
+}
+.section4 table th {
+    font-size: 45px;
+    color: black;
+}
+.section4 table td {
+    font-size: 25px;
+    color: black;
+    width: 1500px;
+}
+.button {
+    width: 85%;
+    background-color: black;
+    margin-left: 15%;
+    margin-top: 40px;
+}
+.button1 {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+.section5 {
+    width: 85%;
+    background-color: black;
+    margin-left: 15%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 15%;
+    font-size: 45px;
+    color: #757575;
+}
+.section6 {
+    width: 85%;
+    background-color: black;
+    margin-left: 15%;
+    padding-right: 15%;
+    display: flex;
+    flex-direction: row;
+}
+.section6 > div {
+    width: 50%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 30px;
+}
+.section6 .line1 ul li, .section6 .line2 ul li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 5px;
+    background-color: darkgray;
+    gap: 10px;
+    transition: background-color 4s ease-in;
+}
+.section6 .line1 ul li, .section6 .line2 ul li:hover {
+    background-color: lightgray;
+    color: grey;
+}
+.section7 {
+    width: 85%;
+    background-color: black;
+    margin-left: 15%;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-right: 15%;
+    font-size: 45px;
+    color: #757575;
+}
+.form {
+    width: 85%;
+    background-color: black;
+    margin-left: 15%;
+    padding-right: 15%;
+}
